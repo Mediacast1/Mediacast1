@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mediacast1.ai README</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 2rem;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #002c5f;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      background: #eee;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-size: 0.95em;
+    }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      body.classList.toggle('dark-mode');
+    }
+  </script>
+  <style>
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+    .dark-mode h1, .dark-mode h2, .dark-mode h3 {
+      color: #82b1ff;
+    }
+    .dark-mode pre {
+      background-color: #2e2e2e;
+    }
+    .dark-mode code {
+      background: #444;
+      color: #eee;
+    }
+    button.toggle-btn {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      padding: 8px 14px;
+      background-color: #002c5f;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  </style>
+</head>
+
+<body>
+<button class='toggle-btn' onclick='toggleTheme()'>🌓 Toggle Theme</button>
+<h1>🎙️ Mediacast1.ai</h1>
+<p><strong>AI-Powered Broadcasting Infrastructure for the Next Generation of Streamers, Podcasters, and Internet Broadcasters</strong></p>
+<p>Mediacast1 is the spiritual successor of one of the earliest pioneers in internet streaming — reborn as <strong>Mediacast1.ai</strong>. This open-source broadcasting stack fuses classic Icecast2 technology with modern, AI-driven tools to deliver intelligent automation, seamless integrations, and scalable streaming solutions.</p>
+
+<h2>🌐 Live Project Website</h2>
+<p>👉 <a href="https://mediacast1.ai">https://mediacast1.ai</a><br>
+🎧 Join our creator community: <a href="https://casterclub.com">CasterClub.com</a></p>
+
+<h2>🚀 Features</h2>
+<ul>
+<li><strong>PlaylistGen AI</strong> – Generate playlists via prompts, file imports, and auto-tagging.</li>
+<li><strong>CastIt Broadcasting Toolkit</strong> – AI-assisted scheduling, rotation, override, RTMP/HLS/Icecast2.</li>
+<li><strong>Simulcasting</strong> – Push to YouTube, Twitch, Facebook Live, custom endpoints.</li>
+<li><strong>Auto-DJ/VJ AI Modules</strong> – NLP-powered content injection and announcements.</li>
+<li><strong>Custom Icecast2 Fork (in Go)</strong> – Protocol upgrades, Docker/K8s-ready, authentication extensions.</li>
+</ul>
+
+<h2>🧑‍💻 Tech Stack</h2>
+<ul>
+<li>Backend: Go, Node.js, Python</li>
+<li>Frontend: React, Electron, Tailwind CSS</li>
+<li>Streaming: FFmpeg, yt-dlp, Liquidsoap</li>
+<li>Containerization: Docker, Kubernetes</li>
+<li>AI: OpenAI, Whisper, Google Speech-to-Text</li>
+</ul>
+
+<h2>📂 Repository Structure</h2>
+<pre><code>/mediacast1/
+├── playlistgen-ai/
+├── castit/
+├── icecast-go/
+├── ai-agents/
+├── utils/
+├── docker/
+└── docs/</code></pre>
+
+<h2>📦 Installation (Dev)</h2>
+<pre><code>git clone https://github.com/Mediacast1/Mediacast1.git
+cd Mediacast1
+docker-compose up --build</code></pre>
+<p>Be sure to configure your .env file with API keys for AI services (optional), and stream ports.</p>
+
+<h2>📜 License</h2>
+<p>Mediacast1.ai is licensed under the MIT License.</p>
+
+<h2>💬 Community & Support</h2>
+<ul>
+<li>Join the community on CasterClub</li>
+<li>Submit issues or feature requests via GitHub</li>
+<li>Follow updates and releases via @Mediacast1AI</li>
+</ul>
+
+<h2>🙌 Legacy Meets Future</h2>
+<p>Mediacast1.ai is more than a platform — it’s a tribute to the golden age of internet broadcasting, reimagined with modern technology, AI augmentation, and an open-source heart.</p>
+<p><strong>📡 Cast smarter. Broadcast better.</strong></p>
+</body>
+</html>
